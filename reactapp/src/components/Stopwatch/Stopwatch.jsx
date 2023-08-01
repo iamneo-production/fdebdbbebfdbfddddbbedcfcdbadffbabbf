@@ -55,7 +55,7 @@ const Stopwatch=()=>{
             <div className="Main">
                 <h1 className="head">React Stopwatch</h1>
                 <div className="timer" data-testid="time">
-                    <h1>{formatTime(timer)}</h1>
+                    <h1>{formatTime()}</h1>
                 </div>
                 <div className="buttons">
                 {
